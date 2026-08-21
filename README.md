@@ -16,6 +16,20 @@ The analyzer acts as a structured decision-support layer on top of that data. It
 
 ---
 
+## Project Structure
+
+| Path | Responsibility |
+|------|----------------|
+| `stock_analyzer/main.py` | Entry point of the application. |
+| `stock_analyzer/data_models.py` | Defines clean data models (dataclasses / Pydantic) for stock data and results. |
+| `stock_analyzer/utils.py` | Shared utilities: CAGR calculation, trend ratings, SKIP handling, score mapping. |
+| `stock_analyzer/ratings/` | Contains the rating engine that calculates scores based on rules and weights. |
+| `stock_analyzer/input/` | Handles interactive input collection and validation. |
+| `stock_analyzer/database/` | Will manage MySQL storage of analysis results and insight queries. |
+|`stock_analyzer/config/` | Holds JSON configuration files (weights, thresholds, sector rules). |
+
+---
+
 ## Project Goals
 
 - Consistent and transparent scoring logic
