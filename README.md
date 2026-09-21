@@ -14,6 +14,12 @@ All metrics must be manually copied by the user from [stockanalysis.com](https:/
 
 The analyzer acts as a structured decision-support layer on top of that data. It is designed for personal research and educational use.
 
+**Workflow:**
+1. Go to site [stockanalysis.com](https://stockanalysis.com).
+2. Search stock you want to analyze.
+3. Copy data from Income Statement, Balance Sheet, Cash Flow, Ratios and Dividends category. 
+4. Paste it to the code metric by metric.
+
 ---
 
 ## Project Structure
